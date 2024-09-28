@@ -14,7 +14,8 @@ app.use(express.json());
 app.use(cookieParser())
 app.use(cors({
   credentials: true,
-  origin: ['https://awass-vishwa-fe.vercel.app', 'http://localhost:5173']
+  origin: ['https://awass-vishwa-fe-tau.vercel.app', 'https://event-spark-be-nlw3.onrender.com']
+
 }));
 
 //DATABASE CONNECTION
